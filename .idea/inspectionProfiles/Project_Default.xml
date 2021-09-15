@@ -1,0 +1,70 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="css" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="six" />
+            <item index="1" class="java.lang.String" itemvalue="pyTelegramBotAPI" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.forms" />
+          <option value="tutorial.snippets.serializers.snippets" />
+          <option value="catalog.models.Book" />
+          <option value="catalog.models.Genre" />
+          <option value="django.db.models.fields.related.ManyToManyField.all" />
+          <option value="catalog.models.Book.id" />
+          <option value="django.db.models.fields.related.ForeignKey.title" />
+          <option value="catalog.models.Author.id" />
+          <option value="rest_framework.generics.CreateModelMixin" />
+          <option value="types.InlineKeyboardMarkup" />
+          <option value="telebot.TeleBot.message_handler" />
+          <option value="types.InlineKeyboardButton" />
+          <option value="telebot.TeleBot.polling" />
+          <option value="bot_api.bot.types" />
+          <option value="bot_api.zodiac.*" />
+          <option value="tutorial.snippets.models.Snippet.objects" />
+          <option value="snippets.models.Snippet.objects" />
+          <option value="snippets.models.Snippet.DoesNotExist" />
+          <option value="telebot.TeleBot.infinity_polling" />
+          <option value="telebot.TeleBot.callback_query_handler" />
+          <option value="nasledovanie.Car._Car__subtract_fuel" />
+          <option value="nasledovanie.Car._Car__add_distance" />
+          <option value="parsing2.comp" />
+          <option value="telebot.types" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
