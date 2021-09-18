@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 import os
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 from django.conf.global_settings import STATIC_ROOT
 
@@ -28,7 +29,7 @@ SECRET_KEY = 'gxx(jn2nnqfvn0_3-4tq*715yl+$0e!$(!q4-$x(mmra5oe)sy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
