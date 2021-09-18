@@ -1,1 +1,0 @@
-web: gunicorn ramilapp.wsgi --log-file -
