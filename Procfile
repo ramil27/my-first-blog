@@ -1,0 +1,1 @@
+gunicorn ramil_project.wsgi --log-file -
